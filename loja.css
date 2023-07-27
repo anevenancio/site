@@ -1,0 +1,141 @@
+
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho-imagem{
+
+    width: 126.238px;
+    height: 71px;
+    flex-shrink: 0;
+}
+
+
+
+.menu{
+    list-style:none;
+    float: right;
+    font-weight: bold;
+    display: flex;
+    width:fit-content;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+
+}
+
+
+.menu li{
+    position: relative;
+    float: left;
+    background-color: #9AD0C9;
+    text-decoration: none;
+    display: flex;
+    margin-left: 20px;
+    color:#8962A1;
+}
+
+.menu li a{
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+    color:#8962A1
+}
+
+.menu li a:hover{
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: auto;
+    display: block;
+    background-color: #8962A1;
+    border-radius: 10px; 
+    color:#fff
+}
+
+.menu li ul{
+    position:absolute;
+    top: 25px;
+    left: 0;
+    background-color: #fff;
+    display: none;
+    
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    font-style: inherit;
+    background-color:#E6EBF1;
+    /*background-image: url(Imagens/Background.svg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    background-position: right bottom;*/
+}
+
+.cabecalho{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    background-color: #9AD0C9;
+    
+}
+
+.categorias{
+    display: flex;
+    flex-direction: row;
+    width: 1352px;
+    height: 180px;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    
+
+}
+
+h1{
+    color: #48466D;
+    text-align: center;
+    padding: 24px;
+    
+}
+
+h2{
+    color: #8962A1;
+    text-align: center;
+    font-size:medium;
+    padding: 0px;    
+
+}
+
+h3{
+    color: #48466D;
+    text-align: left;
+    padding: 40px;
+    margin-top: 50px;
+    
+
+}
+
+.contato{
+    display: flex;
+    flex-direction: row;
+    padding: 250px 0px 45.61px 0px;;
+    justify-content:space-around;
+    align-items: flex-start; 
+  
+   
+    
+   
+
+}
+
+
+
